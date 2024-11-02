@@ -17,14 +17,17 @@ import './profile.css'
 import Layout from '../../components/layout/Layout';
 import Main from '../../components/main/Main'
 import Hero from '../../components/hero/Hero'; // Your HeroSection component
-// import ProfileDetails from './ProfileDetails'; // Your ProfileDetails component
+import About from '../../components/about/About'
+import RecentDonors from '../../components/recent-donors/RecentDonors'
+
 
 const Profile = () => {
   return (
     <Layout>
       <Main/>
       <Hero /> 
-      {/* Add other components as needed */}
+      <About/>
+      <RecentDonors/>
     </Layout>
   );
 };
