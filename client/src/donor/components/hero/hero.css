@@ -15,15 +15,16 @@
     text-align: center;
     justify-content: center;
     margin: auto;
-    max-width: 80%;
+    max-width: 60%;
     
 }
 .hero-heading{
-    font-size: 35px;
+    font-size: 40px;
+    margin-top: 10px;
 }
 .hero-text p{
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
     
 }
 .money-donation-heading{
