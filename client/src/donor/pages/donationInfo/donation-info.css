@@ -1,0 +1,10 @@
+.top{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.top-left{
+    border: 2px solid green;
+    
+}

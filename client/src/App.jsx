@@ -6,6 +6,7 @@ import Profile from './donor/pages/profile/Profile'
 import FindNgo from './donor/pages/FindNgo/FindNgo'
 import EditProfile from './donor/pages/editProfile/EditProfile'
 import EditProfileBox from './donor/components/editProfileBox/EditProfileBox';
+import DonationInfo from './donor/pages/donationInfo/DonationInfo'
 const App = () => {
   return (
     <>
@@ -17,8 +18,7 @@ const App = () => {
             <Route path="/ngo_details" element={<FindNgo/>}></Route>
             <Route path="/edit_profile" element={<EditProfile/>}></Route>
             <Route path="edit_profile/edit_donor_profile" element={<EditProfileBox/>}></Route>
-
-
+            <Route path="/donation_info" element={<DonationInfo/>}></Route>
         </Routes>
     </Router>
     </>
