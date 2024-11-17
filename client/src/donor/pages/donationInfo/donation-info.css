@@ -1,4 +1,4 @@
-.top{
+/* .top{
     border: 2px solid red;
     display: flex;
     align-items: center;
@@ -7,4 +7,128 @@
 .top-left{
     border: 2px solid green;
     
-}
+} */
+
+.donation-info-container {
+    padding: 20px;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .top-left {
+    width: 25%;
+  }
+  
+  .ngo-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .top-right {
+    width: 70%;
+    padding-left: 20px;
+  }
+  
+  .top-right h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .info {
+    margin-bottom: 15px;
+  }
+  
+  .info-item {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .progress-container {
+    margin-bottom: 15px;
+  }
+  
+  .slider {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .slider-input {
+    width: 100%;
+  }
+  
+  .slider-value {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .stats {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bottom-left, .bottom-right {
+    width: 48%;
+  }
+  
+  .donate-btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate-btn:hover {
+    background-color: #e55347;
+  }
+  
+  .donor-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .donor-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .donor-name {
+    font-weight: bold;
+  }
+  
+  .donor-amount {
+    color: #28a745;
+  }
+  
+  .donor-date {
+    color: #777;
+    font-size: 14px;
+  }
+  
